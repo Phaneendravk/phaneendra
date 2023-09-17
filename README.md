@@ -1,2 +1,0 @@
-# phaneendra
-my portfolio website
