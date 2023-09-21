@@ -69,6 +69,27 @@ nav ul li a:hover::after{
 
 
 
+@media only screen and  (max-width:375px){ 
+    .header_text{
+        background-image: url("my_pic1.png");
+    background-size:contain;
+    background-position:right ;  
+    background-repeat: no-repeat;
+    }
+    
+    #text {
+    
+        font-size: 20px;
+        width: 200px;
+       
+    
+
+    
+}
+}
+
+
+
 .header_text{
     display: flex;
 
@@ -158,21 +179,50 @@ nav ul li a:hover::after{
     color: #ff004f;
 
 }
+@media only screen  and(max-width:365px){
+    .tab-top{
+        margin:0px;
+    }
+    .tab-link1{
+        padding: 0px;
+        margin-right: 0px;
+        
+    }
+    
+    
+}
 
-.tab-titles{
+@media only screen  and(max-width:290px){
+    .tab-top{
+        margin:0px;
+    }
+    .tab-link1{
+        padding: 0px;
+        margin-right: 0px !important;
+        
+    }
+    
+    
+}
+
+
+.tab-top{
   
     display: flex;
-    margin:0px 20px  ;
+    margin:0px 8px  ;
+    position:relative;
 }
-.tab-links{
+.tab-link1{
     margin-right: 50px;
     font-size: 22px;
     color: orange;
     font-weight: 500;
-    cursor: pointer
+    cursor: pointer;
+    
+   
    
 }
-.tab-links::after{
+.tab-link1::after{
     content: '';
     width: 0;
     height: 3px;
@@ -395,7 +445,7 @@ i{
     padding: 10px;
 }
 #name,#mail,#textarea{
-    width: 600px;
+    width: 450px;
     padding: 10px;
     background-color:rgb(39,38,39);
     color: #fff;
@@ -422,14 +472,53 @@ i{
 
 @media only screen and (max-width: 576px) {
     #name,#mail,#textarea{
-        width: 350px;
+        width: 320px;
         padding: 5px;
         margin: 5px 0px;
     
     }
+
       
     
   }
+
+  @media only screen and (max-width: 820px) {
+    #name,#mail,#textarea{
+        width: 320px;
+        padding: 5px;
+        margin: 5px 0px;
+    
+    }
+
+      
+    
+  }
+
+  @media only screen and (max-width: 915px) {
+    #name,#mail,#textarea{
+        width: 320px;
+        padding: 5px;
+        margin: 5px 0px;
+    
+    }
+
+      
+    
+  }
+  @media only screen and (max-width: 280px) {
+    #name,#mail,#textarea{
+        width: 250px;
+        padding: 5px;
+        margin: 5px 0px;
+    
+    }
+
+      
+    
+  }
+
+
+  
 
 
 
